@@ -1,0 +1,381 @@
+/* CSS Document */
+
+@font-face {
+    font-family: gothambook;
+    src: url('../fonts/Gotham-Book.otf');
+}
+
+body {
+    font-family: gothambook;
+    font-size: 2.2vh;
+    overflow-x: hidden;
+    background: #f2f2f3;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p{
+    margin: 0;
+}
+
+
+/*section*/
+
+@media screen and (min-width: 481px) {
+    .s-one {
+        background: #fff url('../images/1-bg.jpg') top right no-repeat;
+        width: 100%;
+        height: 770px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .s-one {
+        background: #fff url('../images/mobile/1-bg.jpg') top left no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 600px;
+    }
+}
+
+@media screen and (min-width: 481px) {
+    .s-two {
+        background: #fff url('../images/2-bg.png') bottom right no-repeat;
+        width: 100%;
+        padding-bottom: 15px;
+        height: 1900px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .s-two {
+        background: #fff url('../images/mobile/2-bg.png') bottom right no-repeat;
+        width: 100%;
+        height: auto;
+        padding-bottom: 35px;
+    }
+}
+
+@media screen and (min-width: 481px) {
+    .s-three {
+        background: #f2f2f3 url('../images/3-bg.jpg') bottom left no-repeat;
+        width: 100%;
+        height: 770px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .s-three {
+        background: #f2f2f3 url('../images/mobile/3-bg.jpg') bottom left no-repeat;
+        background-size: 50%;
+        width: 100%;
+        height: 500px;
+    }
+}
+
+.s-four {
+    background: #f2f2f3 url('../images/4-bg.jpg') bottom left no-repeat;
+    width: 100%;
+    height: auto;
+    padding-bottom: 75px;
+}
+
+@media screen and (min-width: 481px) {
+    .s-five {
+        background: #fff url('../images/5-bg.png') bottom left no-repeat;
+        width: 100%;
+        height: 650px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .s-five {
+        background: #fff url('../images/mobile/5-bg.png') bottom left no-repeat;
+        background-size: 30%;
+        width: 100%;
+        height: 400px;
+    }
+}
+
+@media screen and (min-width: 481px) {
+.s-six {
+    background: #fff url('../images/6-bg.png') bottom left no-repeat;
+    width: 100%;
+    height: auto;
+    padding-bottom: 60px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+.s-six {
+    background: #fff url('../images/mobile/6-bg.jpg') bottom left no-repeat;
+    width: 100%;
+    height: auto;
+    padding-bottom: 90px;
+    }
+}
+
+@media screen and (min-width: 481px) {
+    .s-seven {
+        background: #f2f2f3 url('../images/7-bg.png') bottom left no-repeat;
+        width: 100%;
+        height: 650px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .s-seven {
+        background: #f2f2f3 url('../images/mobile/7-bg.png') bottom left no-repeat;
+        background-size: 100%;
+        width: 100%;
+        height: 450px;
+    }
+}
+
+.s-four {
+    background: #f2f2f3;
+    width: 100%;
+    height: auto;
+    padding-bottom: 55px;
+}
+
+.s-nine {
+    background: #2c2d2d;
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+    color: #fff;
+}
+
+
+/*!section*/
+
+
+/*misc*/
+
+.img-s-1 {
+    position: absolute;
+    left: 7%;
+    margin-top: 9%;
+}
+
+.img-s-2 {
+    position: absolute;
+    right: 7%;
+    margin-top: 22.5%;
+}
+
+.img-s-3 {
+    position: absolute;
+    left: 20%;
+    margin-top: 9%;
+}
+
+.img-s-4 {
+    position: absolute;
+    left: 29%;
+    margin-top: 3%;
+}
+.img-s-5 {
+    position: absolute;
+    margin-top: 10%;
+    left: 20%;
+}
+
+.img-s-6 {
+    position: absolute;
+    left: 29%;
+}
+
+.img-s-7 {
+    position: absolute;
+    margin-top: 11%;
+    left: 18%;
+}
+
+.img-s-8 {
+    position: absolute;
+    left: 35%;
+}
+
+.img-s-1m {
+    position: absolute;
+    margin-top: 45%;
+    width: 100%;
+}
+
+.img-s-2m {
+    position: absolute;
+    margin-top: 10%;
+    width: 100%;
+}
+
+.img-s-3m {
+    position: absolute;
+    margin-top: 45%;
+    width: 100%;
+}
+
+.img-s-4m {
+    position: absolute;
+    left: 12%;
+    margin-top: 35%;
+    width: 70%;
+}
+.img-s-5m {
+    position: absolute;
+    margin-top: 16%;
+    left: 6%;
+    width: 100%;
+}
+
+.img-s-6m {
+    position: absolute;
+    left: 15%;
+    width: 70%;
+}
+
+.img-s-7m {
+    position: absolute;
+    margin-top: 35%;
+    width: 100%;
+    right: 15%;
+
+}
+
+.img-s-8m {
+    position: absolute;
+    left: 15%;
+    margin-top: 5%;
+    width: 80%;
+}
+
+.text-right {
+    text-align: right!important;
+}
+
+.text {
+    line-height: 3vh!important;
+}
+
+.text-black {
+    color: #000000!important;
+}
+
+.text-purple {
+    color: #a864a8!important;
+}
+
+.text-red {
+    color: #ef4358!important;
+}
+
+.text-red2 {
+    color: #ef4358!important;
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 481px) {
+    .img-testimoni {
+        position: relative;
+        bottom: 40px;
+    }
+    .bg-testimoni-white {
+        background: #fff;
+        padding: 25px 20px 25px 55px!important;
+        border-radius: 10px;
+    }
+    .bg-testimoni-gray {
+        background: #eceef1;
+        padding: 25px 20px 25px 55px!important;
+        border-radius: 10px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .img-testimoni {
+        position: relative;
+        top: 50px;
+    }
+    .bg-testimoni-white {
+        background: #fff;
+        padding: 53px 10px 10px 10px!important;
+        border-radius: 10px;
+    }
+    .bg-testimoni-gray {
+        background: #eceef1;
+        padding: 53px 10px 10px 10px!important;
+        border-radius: 10px;
+    }
+}
+
+.pos-relative {
+    position: relative;
+}
+
+.absolute-right {
+    position: absolute;
+    right: 5%!important;
+}
+
+.absolute-left {
+    position: relative;
+    left: 5%!important;
+}
+
+.absolute-bottom {
+    position: absolute;
+    bottom: 5%!important;
+}
+
+.absolute-top {
+    position: relative;
+    top: 5%!important;
+}
+
+.marbot {
+    margin-bottom: 20%!important;
+}
+
+.marbot2 {
+    margin-bottom: 5%!important;
+}
+
+.anmted-fill-none {
+    animation-fill-mode: none!important;
+    z-index: 1;
+}
+
+.pull-left {
+    float: left;
+}
+
+.pull-right {
+    float: right;
+}
+
+.padat {
+    padding-top: 40px;
+}
+
+.padtom {
+    padding-bottom: 30px;
+}
+
+.top2 {
+    margin-top: 60px;
+}
+
+.center {
+    margin: auto;
+    width: 100%;
+}
+
+
+/*!misc*/
